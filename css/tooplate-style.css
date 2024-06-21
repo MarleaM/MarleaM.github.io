@@ -314,7 +314,9 @@ a:hover, a:active, a:focus {
   padding: 2px 0;
 }
 
-
+.journey-image-thumb img {
+  border-radius: 90%;
+}
 
 /*---------------------------------------
   Work section              
