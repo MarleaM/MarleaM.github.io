@@ -315,7 +315,10 @@ a:hover, a:active, a:focus {
 }
 
 .journey-image-thumb img {
-  border-radius: 90%;
+  width: 280px;  /* Set your desired width */
+  height: 280px; /* Set your desired height */
+  border-radius: 5%; /* Ensures the image has rounded corners or a circular shape */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
 }
 
 /*---------------------------------------
