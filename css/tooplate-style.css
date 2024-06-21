@@ -145,6 +145,12 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
+.journey-section-title {
+  margin: 0;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 #service, #about, #work,
 #contact, footer {
   position: relative;
@@ -232,7 +238,7 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Service section              
+  Service section              #contact button#submit 
 -----------------------------------------*/
 
 .service-thumb {
@@ -277,7 +283,11 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
-
+.service-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
 
 /*---------------------------------------
   About section              
@@ -289,7 +299,7 @@ a:hover, a:active, a:focus {
 
 .about-image-thumb img {
   border-radius: 50%;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
 }
 
 .about-image-thumb .social-icon li a {
