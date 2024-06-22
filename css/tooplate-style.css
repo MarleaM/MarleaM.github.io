@@ -82,7 +82,7 @@ p {
 -----------------------------------------*/
 
 .section-btn {
-  background: rgba(195, 98, 53, 0.794); /*#9b5353*/
+  background: #cf835f; /*#9b5353*/
   border: none;
   border-radius: 50px;
   color: #f0f0f0;
@@ -142,13 +142,15 @@ a:hover, a:active, a:focus {
 
 .section-title {
   margin: 0;
-  padding-bottom: 32px;
+  color:#cf835f;
+  /*padding-bottom: 32px;*/
 }
 
 .journey-section-title {
   margin: 0;
   padding-bottom: 32px;
   text-align: center;
+  color:#cf835f;
 }
 
 #service, #about, #work,
@@ -253,7 +255,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb:hover {
-  background: rgba(195, 98, 53, 0.794);
+  background: #cf835f;
   top: -5px;
 }
 
@@ -272,7 +274,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb .fa {
-  color: rgba(195, 98, 53, 0.794);
+  color: #cf835f;
   font-size: 62px;
   text-align: center;
   margin-top: 32px;
@@ -315,6 +317,7 @@ a:hover, a:active, a:focus {
 }
 
 .journey-image-thumb img {
+  
   width: 280px;  /* Set your desired width */
   height: 280px; /* Set your desired height */
   border-radius: 5%; /* Ensures the image has rounded corners or a circular shape */
@@ -343,9 +346,9 @@ a:hover, a:active, a:focus {
 
 .work-thumb-overlay {
   position: absolute;
-  background: #7682cc;
+  background: #cf835f;
   border-radius: 5px;
-  cursor: crosshair;
+  cursor: pointer;
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -409,7 +412,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background: #7682cc;
+  background: #cf835f;
   text-align: center;
   padding: 120px 0;
 }
