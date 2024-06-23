@@ -516,3 +516,39 @@ footer p {
     height: 125vh;
   }
 }
+
+
+/* Container for the images */
+.image-container {
+  position: relative;
+  width: 100%; /* Ensure the enlarged image doesn't overflow the container */
+}
+
+/* Default image */
+.default-img {
+  width: 100%;
+  transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover image - initially flipped 180 degrees and hidden */
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transform: perspective(1000px) rotateY(180deg); /* Initially flipped */
+  transition: opacity 0.5s ease-in-out, transform 0.4s ease-in-out;
+  pointer-events: none; /* Prevents interaction */
+}
+
+/* Show hover image and enlarge on hover */
+.image-container:hover .default-img {
+  opacity: 0;
+  transform: scale(1.25) ; /* Enlarge the default image */
+}
+
+.image-container:hover .hover-img {
+  opacity: 1;
+  transform: scale(1.25) perspective(1000px) rotateY(0); /* Rotate back to 0 degrees on hover */
+}
