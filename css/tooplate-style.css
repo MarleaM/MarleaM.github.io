@@ -552,3 +552,13 @@ footer p {
   opacity: 1;
   transform: scale(1.25) perspective(1000px) rotateY(0); /* Rotate back to 0 degrees on hover */
 }
+
+.highlight-tag {
+  background-color: #cf835f81; /* Adjust the background color as needed */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding for the text */
+  border-radius: 15px; /* Creates the oval shape */
+  font-size: 14px; /* Adjust the font size as needed */
+  display: inline-block; /* Ensures the element is inline with padding and margin */
+  margin-right: 5px; /* Adds space between tags */
+}
