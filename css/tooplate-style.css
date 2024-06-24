@@ -165,6 +165,9 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
+#contact {
+ background:  #fcf4f2;
+}
 
 /*---------------------------------------
   Pre loader section              
@@ -403,7 +406,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: #7682cc;
+  background: #cf835f;
   color: #ffffff;
 }
 
