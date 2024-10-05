@@ -377,11 +377,12 @@ a:hover, a:active, a:focus {
 
 .journey-image-thumb img {
   
-  width: 280px;  /* Set your desired width */
-  height: 280px; /* Set your desired height */
-  border-radius: 5%; /* Ensures the image has rounded corners or a circular shape */
-  object-fit: cover; /* Ensures the image covers the container without stretching */
-  text-align: center; /* Optional: Center align if needed */
+  width: 280px;  
+  height: 280px; 
+  border-radius: 5%;
+  object-fit: cover; 
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 
